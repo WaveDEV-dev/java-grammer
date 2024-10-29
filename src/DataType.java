@@ -10,8 +10,15 @@ public class DataType {
         Sample.classVariable = 20;
         instanceVariable1.sampleMethod(10);
         instanceVariable2.sampleMethod(10);
-        System.out.println(instanceVariable1.memberVariable);
-        System.out.println(instanceVariable2.memberVariable);
+        System.out.println("instanceVariable1: " + instanceVariable1.memberVariable);
+        System.out.println("instanceVariable2: " + instanceVariable2.memberVariable);
+        Sample.classVariable = 30;
+        instanceVariable1.sampleMethod(10);
+        instanceVariable2.sampleMethod(10);
+        instanceVariable1.memberVariable = 17;
+        System.out.println("instanceVariable1: " + instanceVariable1.memberVariable);
+        System.out.println("instanceVariable2: " + instanceVariable2.memberVariable);
+
 
         int a = 1;
         long b = 1;
