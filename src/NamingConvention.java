@@ -1,4 +1,4 @@
-public class New1 {
+public class NamingConvention {
     public static void main(String[] args) {
         String case1 = "snake_case";
         String case2 = "PascalCase";
