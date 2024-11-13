@@ -7,10 +7,10 @@ public class Problem3 {
         if (a == b) {
             System.out.println("a = b");
         }
-        if (a > b) {
+        else if (a > b) {
             System.out.println("a > b");
         }
-        if (a < b) {
+        else if (a < b) {
             System.out.println("a < b");
         }
 
@@ -19,10 +19,10 @@ public class Problem3 {
         if (c == d) {
             System.out.println("c = d");
         }
-        if (c > d) {
+        else if (c > d) {
             System.out.println("c > d");
         }
-        if (c < d) {
+        else if (c < d) {
             System.out.println("c < d");
         }
 
@@ -31,10 +31,10 @@ public class Problem3 {
         if (e == f) {
             System.out.println("e = f");
         }
-        if (e > f) {
+        else if (e > f) {
             System.out.println("e > f");
         }
-        if (e < f) {
+        else if (e < f) {
             System.out.println("e < f");
         }
     }
