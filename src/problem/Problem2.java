@@ -4,9 +4,9 @@ public class Problem2 {
     public static void main(String[] args) {
         // 변수 선언
         int score = 91;
-        boolean diligence = false;
+        boolean isDiligence = false;
         String scoreResult = "";
-        boolean fCheck = false;
+        boolean isF = false;
 
         // 학점 변수 설정
         if(score >= 90) {
@@ -20,11 +20,11 @@ public class Problem2 {
         }
         else {
             scoreResult = "F";
-            fCheck = true;
+            isF = true;
         }
 
         // +학점 설정
-        if(diligence && fCheck) {
+        if(isDiligence && isF) {
             scoreResult += "+";
         }
 
