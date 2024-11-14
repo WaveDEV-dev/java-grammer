@@ -1,10 +1,13 @@
 package problem;
 
 public class Problem2 {
+
+    // 조건 변수 설정
     boolean isDiligence = true;
     boolean isF = false;
 
     // 학점 변수 설정
+
     public String setGradeVariable(int score) {
         if (score >= 90) {
             return "A";
@@ -17,15 +20,21 @@ public class Problem2 {
             return "F";
         }
     }
+
     public String setPlusGradeVariable(String scoreResult) {
+
+        // +학점 연산
         if (isDiligence && !isF) {
             scoreResult += "+";
         }
         return scoreResult;
     }
+
     public static void main(String[] args) {
+
         // 클래스 선언
         Problem2 problem = new Problem2();
+
         // 변수 선언
         int score = 100;
         String scoreResult = "";
