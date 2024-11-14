@@ -6,6 +6,7 @@ public class Problem2 {
         int score = 91;
         boolean diligence = false;
         String scoreResult = "";
+        boolean fCheck = false;
 
         // 학점 변수 설정
         if(score >= 90) {
@@ -19,10 +20,11 @@ public class Problem2 {
         }
         else {
             scoreResult = "F";
+            fCheck = true;
         }
 
         // +학점 설정
-        if(diligence && !scoreResult.equals("F")) {
+        if(diligence && fCheck) {
             scoreResult += "+";
         }
 
