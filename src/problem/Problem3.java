@@ -1,41 +1,32 @@
 package problem;
 
 public class Problem3 {
-    public static void main(String[] args) {
-        int a = 10;
-        int b = 10;
+
+    // 두 변수 비교 연산
+    public String operatorResult(int a, int b) {
         if (a == b) {
-            System.out.println("a = b");
+            return "a == b";
         }
         else if (a > b) {
-            System.out.println("a > b");
+            return "a > b";
         }
-        else if (a < b) {
-            System.out.println("a < b");
+        else {
+            return "a < b";
         }
+    }
 
-        int c = 10;
-        int d = 7;
-        if (c == d) {
-            System.out.println("c = d");
-        }
-        else if (c > d) {
-            System.out.println("c > d");
-        }
-        else if (c < d) {
-            System.out.println("c < d");
-        }
+    public static void main(String[] args) {
 
-        int e = 7;
-        int f = 10;
-        if (e == f) {
-            System.out.println("e = f");
-        }
-        else if (e > f) {
-            System.out.println("e > f");
-        }
-        else if (e < f) {
-            System.out.println("e < f");
-        }
+        // 클래스 선언
+        Problem3 problem = new Problem3();
+
+        // 변수 선언
+        int a = 10;
+        int b = 7;
+        String result = "";
+
+        // 결과문 출력
+        result = problem.operatorResult(a, b);
+        System.out.println(result);
     }
 }
