@@ -1,3 +1,4 @@
+// 변수 이름 작명법 연습
 public class NamingConvention {
     public static void main(String[] args) {
         String case1 = "snake_case";

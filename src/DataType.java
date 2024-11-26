@@ -1,3 +1,4 @@
+// 인스턴트 변수 & 멤버 변수 연습
 public class DataType {
 
     public static void main(String[] args) {
