@@ -11,5 +11,13 @@ public class Main {
         car2.alert(); // 300 alert 폭스바겐
         car3.accelerate(100);
         car3.alert(); // 250 alert 크라이슬러
+
+        BankAccount account = new BankAccount("1", "WaveDEV");
+        account.deposit(10000);
+        account.withdraw(1000);
+        account.check();
+
+        account.withdraw(2000);
+        account.check();
     }
 }
