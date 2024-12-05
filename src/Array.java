@@ -25,5 +25,8 @@ public class Array {
         for(int i = 0; i < 5; i++) {
             System.out.print(myArray2[i] + " ");
         }
+
+        // 배열의 길이
+        System.out.println("배열의 길이 : "+myArray2.length);
     }
 }
